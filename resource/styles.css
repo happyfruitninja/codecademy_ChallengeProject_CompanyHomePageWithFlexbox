@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+.raleway{
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.montserrat{
+    font-family: Montserrat;
+}
