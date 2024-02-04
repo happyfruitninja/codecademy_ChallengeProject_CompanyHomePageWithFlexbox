@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+    font-family: "Monsterrat", san-serif;
+    margin: 0;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+
+}
+
+h2 {
+    font-family: "Raleway", san-serif;
+
+}
+
+p {
+    font-family: "Monsterrat", san-serif;
+
+}
+
+header {
+  
+}
+nav {
+
+}
+.container {
+    display:flex;
+   
+}
+.logo {
+    margin: 0 auto;
+text-align: center;
+}
+
+
+.logo img {
+    width: 150px;
+
+}
+
+.nav-icons{
+    display: flex;
+justify-self: end;
+right:0
+
+}
+.nav-icons ul{
+    display: flex;
+
+
+}
+.menu ul{
+   display:flex;
+}
+
+
+/* 
+section {
+
+}
+
+section .intro {
+    position: relative;
+    top: 200px;
+    display: flex;
+
+    padding: 200px 0;
+}
+
+.intro::before {
+    position: absolute;
+    background-image: url("../resource/images/elsa-olofsson.jpg");
+    background-size: cover;
+    opacity: 0.75;
+  height: 300px;
+  width: 100;
+
+}
+
+.intro h1 {
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0
+} */
