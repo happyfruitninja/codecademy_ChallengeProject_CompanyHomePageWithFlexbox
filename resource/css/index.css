@@ -65,16 +65,18 @@ nav .container {
 
 .logo img {
     width: 200px;
-
-
 }
 
-.nav-icons {}
+
 
 .nav-icons ul {
     padding: 0;
     display: flex;
 
+}
+
+i {
+    margin: 0 10px;
 }
 
 .menu ul {
