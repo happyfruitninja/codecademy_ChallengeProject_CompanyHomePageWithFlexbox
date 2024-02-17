@@ -85,6 +85,7 @@ nav .container {
 }
 
 /* Body */
+/* Intro Section */
 
 .intro {
     display: flex;
@@ -106,19 +107,39 @@ nav .container {
     height: 100%;
 }
 
-
-.intro_text {
+.intro>* {
     position: absolute;
+}
+
+.intro h1 {
     color: white;
     font-size: 2.3rem;
     letter-spacing: 0.4rem;
     height: auto;
     text-align: center;
-    width:100%;
+    width: 100%;
     padding: 50px 10%;
     background-color: rgba(225, 225, 225, 0.3);
     text-shadow: 1px 1px gray;
 
+}
+
+.intro p {
+    bottom: 20%;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+}
+
+.intro_book {
+    bottom: 8%;
+    background-color: palevioletred;
+    border: none;
+    padding:5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight:bold;
+    text-shadow: 1px 1px rgb(87, 87, 87);
 }
 
 
