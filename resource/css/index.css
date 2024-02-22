@@ -117,9 +117,10 @@ nav .container {
     height: auto;
     text-align: center;
     width: 100%;
-    padding: 50px 10%;
+    padding: 50px 0;
     background-color: rgba(225, 225, 225, 0.3);
     text-shadow: 1px 1px gray;
+    
 }
 
 .intro p {
@@ -143,9 +144,46 @@ nav .container {
 /* Body */
 /* About Section */
 .about {
-    display:inline-flex;
+    display:flex;
+    margin-top:10px;
 }
 
+.company > .container {
+    display: flex;
+    margin: 15px 0;
+}
+.company img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+}
+
+.company .text {
+    padding:  0 15px;
+   
+ }
+.company .container > div  {
+    width :50%;
+}
+
+.description img {
+    height: 500px;
+}
+
+.reputation img {
+    height: auto;
+}
+
+.text p:first-child {
+    margin-bottom: 30px;
+}
+
+br {
+    display: block;
+    content: "";
+    margin: 5px 0;
+}
 
 /* footer {
    
