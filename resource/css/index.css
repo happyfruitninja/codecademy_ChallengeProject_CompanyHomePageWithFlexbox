@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     font-family: "Monsterrat", san-serif;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 20px;
     max-width: 1000px;
 }
 
@@ -24,9 +24,9 @@ h1,
 h2,
 h3,
 p {
-    padding: 0;
-    margin: 0;
-    height: auto;
+    
+    margin: 10px;
+   
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-family: "Raleway", san-serif;
-
+    padding: 15px 0;
 }
 
 p {
@@ -44,45 +44,7 @@ p {
 }
 
 
-/* nav */
-nav {
-    padding: 15px 5%;
-}
 
-nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.hamburger {
-    display: none;
-
-}
-
-.logo {
-    margin: 0 auto;
-
-}
-
-
-.logo img {
-    width: 200px;
-}
-
-
-
-.nav-icons ul {
-    padding: 0;
-    display: flex;
-}
-
-
-.menu ul {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 /* Body */
 /* Intro Section */
@@ -120,7 +82,7 @@ nav .container {
     padding: 50px 0;
     background-color: rgba(225, 225, 225, 0.3);
     text-shadow: 1px 1px gray;
-    
+
 }
 
 .intro p {
@@ -134,24 +96,25 @@ nav .container {
     bottom: 8%;
     background-color: palevioletred;
     border: none;
-    padding:5px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     color: white;
-    font-weight:bold;
+    font-weight: bold;
     text-shadow: 1px 1px rgb(87, 87, 87);
 }
 
 /* Body */
 /* About Section */
 .about {
-    display:flex;
-    margin-top:10px;
+    display: flex;
+    margin-top: 10px;
 }
 
-.company > .container {
+.company>.container {
     display: flex;
     margin: 15px 0;
 }
+
 .company img {
     width: 100%;
     object-fit: cover;
@@ -160,11 +123,12 @@ nav .container {
 }
 
 .company .text {
-    padding:  0 15px;
-   
- }
-.company .container > div  {
-    width :50%;
+    padding: 0 15px;
+
+}
+
+.company .container>div {
+    width: 50%;
 }
 
 .description img {
@@ -190,7 +154,7 @@ br {
     bottom: 0
 }  */
 
-/* 
+
 
 @media only screen and (max-width:827px) {
 
@@ -205,4 +169,4 @@ br {
     .menu {
         visibility: hidden;
     }
-} */
+}

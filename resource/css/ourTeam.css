@@ -1,0 +1,16 @@
+.members {
+       max-width:600px;
+   
+}
+
+.members img {
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+.member {
+    display:flex;
+    margin: 20px 0;
+}
+

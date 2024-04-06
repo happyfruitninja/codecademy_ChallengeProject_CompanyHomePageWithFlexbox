@@ -1,0 +1,39 @@
+/* nav */
+nav {
+    padding: 15px 5%;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.hamburger {
+    display: none;
+
+}
+
+.logo {
+    margin: 0 auto;
+
+}
+
+
+.logo img {
+    width: 200px;
+}
+
+
+
+.nav-icons ul {
+    padding: 0;
+    display: flex;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
