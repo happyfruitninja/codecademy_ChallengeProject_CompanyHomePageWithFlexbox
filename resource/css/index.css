@@ -24,9 +24,9 @@ h1,
 h2,
 h3,
 p {
-    
+
     margin: 10px;
-   
+
 }
 
 h1 {
@@ -110,7 +110,7 @@ p {
     margin-top: 10px;
 }
 
-.company>.container {
+.company .container {
     display: flex;
     margin: 15px 0;
 }
@@ -135,9 +135,6 @@ p {
     height: 500px;
 }
 
-.reputation img {
-    height: auto;
-}
 
 .text p:first-child {
     margin-bottom: 30px;
@@ -168,5 +165,25 @@ br {
 
     .menu {
         visibility: hidden;
+    }
+
+    .company .container>div {
+        width: 100%;
+    }
+
+    .description{
+        flex-direction: column;
+    }
+
+    .reputation {
+        flex-direction: column-reverse;
+    }
+
+    .reputation .image {
+        order: 3;
+    }
+
+    .reputation .text {
+        order: 2;
     }
 }
