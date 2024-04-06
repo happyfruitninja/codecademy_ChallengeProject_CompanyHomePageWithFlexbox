@@ -155,11 +155,7 @@ br {
 
 @media only screen and (max-width:827px) {
 
-    body {
-        background-color: yellow;
-    }
-
-    .hamburger {
+       .hamburger {
         visibility: hidden;
     }
 
