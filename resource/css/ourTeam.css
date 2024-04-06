@@ -1,16 +1,30 @@
 .members {
-       max-width:600px;
-   
+    display:flex;
+  
+   text-align: center;
 }
 
 .members img {
     height: 200px;
     border-radius: 25px;
+    max-width:600px;
 
 }
 
 .member {
-    display:flex;
-    margin: 20px 0;
+    
+    margin: 20px;
+    justify-content: space-between;
 }
 
+@media only screen and (max-width:827px) {
+    .members {
+        flex-direction: column;
+        
+    }
+    .member {
+        max-width:300px;
+     margin:20px auto;
+    
+    }
+}
