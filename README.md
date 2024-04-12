@@ -1,6 +1,8 @@
 ### Overview
 This is course challenge project from codecademy bootcamp. The project brief is to create a static company homepage using flexbox as a starter.
 
+[Page](https://happyfruitninja.github.io/codecademy_ChallengeProject_CompanyHomePageWithFlexbox/)
+
 ### Project Goals
 #### Short Term Goal
 To create a website by using flexbox.The homepage includes :
