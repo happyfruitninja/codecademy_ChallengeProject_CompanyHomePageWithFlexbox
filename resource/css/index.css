@@ -53,7 +53,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("resource/images/elsa-olofsson.jpg");
+    background-image: url("resource\images\elsa-olofsson.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
