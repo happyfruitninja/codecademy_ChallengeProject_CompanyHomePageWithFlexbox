@@ -155,7 +155,7 @@ br {
 
 @media only screen and (max-width:827px) {
 
-       .hamburger {
+    .hamburger {
         visibility: hidden;
     }
 
@@ -167,7 +167,7 @@ br {
         width: 100%;
     }
 
-    .description{
+    .description {
         flex-direction: column;
     }
 
